@@ -23,3 +23,12 @@
   border: none;
   background-color: #AAB7B8;
 }
+
+pre {
+  border-radius: 0.5rem;
+  overflow: auto;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}

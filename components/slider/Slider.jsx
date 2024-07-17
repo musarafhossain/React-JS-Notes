@@ -17,7 +17,7 @@ const Slider = ({isToggle, page}) => {
   },
 ];
   return (
-    <div className={`duration-300 border-r absolute md:static border-gray-300 slider-height bg-gray-100 ${isToggle?' w-72 ':' w-0 '}`}>
+    <div className={`duration-300 border-r absolute md:static z-50 border-gray-300 slider-height bg-gray-100 ${isToggle?' w-72 ':' w-0 '}`}>
         <div className={`scale-box ${isToggle?' flex zoom-scale-box ':' hidden '} duration-200`}>
             <div className='text-nowrap w-full flex flex-col py-5 px-2 gap-1'>
               {data.map((item, index) => (

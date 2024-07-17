@@ -2,11 +2,12 @@
 import Navbar from "@/components/navbar/Navbar";
 import Slider from "@/components/slider/Slider";
 import Introduction from '@/chapters/Introduction'
+import Installation from "@/chapters/Installation";
 import { useState, useEffect } from "react";
 
 export default function Home() {
   const [isToggle, setIsToggle] = useState(true);
-  const [tab, setTab] = useState('introduction');
+  const [tab, setTab] = useState('installation');
 
   const toggleHandle = () => {
     setIsToggle(!isToggle);
@@ -31,8 +32,8 @@ export default function Home() {
           {tab === 'introduction' && (
             <Introduction/>
           )}
-          {tab === 'about-us' && (
-            <h1 className="text-4xl font-bold">This is the About Us page...</h1>
+          {tab === 'installation' && (
+            <Installation/>
           )}
           {tab === 'contact-us' && (
             <h1 className="text-4xl font-bold">This is the Contact Us page...</h1>
@@ -43,7 +44,6 @@ export default function Home() {
           {tab === 'dashboard' && (
             <h1 className="text-4xl font-bold">This is the Dashboard page...</h1>
           )}
-          {/* Add more tab content here as needed */}
         </div>
       </div>
     </div>
