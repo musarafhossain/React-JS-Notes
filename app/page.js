@@ -1,11 +1,12 @@
 "use client";
 import Navbar from "@/components/navbar/Navbar";
 import Slider from "@/components/slider/Slider";
+import Introduction from '@/chapters/Introduction'
 import { useState, useEffect } from "react";
 
 export default function Home() {
   const [isToggle, setIsToggle] = useState(true);
-  const [tab, setTab] = useState('home');
+  const [tab, setTab] = useState('introduction');
 
   const toggleHandle = () => {
     setIsToggle(!isToggle);
@@ -26,9 +27,9 @@ export default function Home() {
       <Navbar toggleHandle={toggleHandle} />
       <div className="flex">
         <Slider isToggle={isToggle} page={{tab, setTab}} />
-        <div className="flex w-full items-center justify-center p-4 slider-height overflow-x-hidden overflow-auto">
-          {tab === 'home' && (
-            <h1 className="text-4xl font-bold">This is the upcoming home page...</h1>
+        <div className="flex w-full slider-height overflow-x-hidden overflow-auto">
+          {tab === 'introduction' && (
+            <Introduction/>
           )}
           {tab === 'about-us' && (
             <h1 className="text-4xl font-bold">This is the About Us page...</h1>

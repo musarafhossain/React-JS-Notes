@@ -1,36 +1,19 @@
 import React from 'react'
-import { FaHome } from "react-icons/fa";
-import { MdDashboard, MdOutlineHelpOutline } from "react-icons/md";
-import { FcAbout } from "react-icons/fc";
-import { TbPhoneCall } from "react-icons/tb";
 import SliderItems from './SliderItems';
 
 const Slider = ({isToggle, page}) => {
   const data = [
   {
-    icon : FaHome,
-    title : 'Home',
-    name : 'home',
+    title : '1. ReactJS — Introduction',
+    name : 'introduction',
   },
   {
-    icon : MdDashboard,
-    title : 'Dashboard',
-    name : 'dashboard'
+    title : '2. ReactJS — Installation',
+    name : 'installation'
   },
   {
-    icon : MdOutlineHelpOutline,
-    title : 'Help',
-    name : 'help',
-  },
-  {
-    icon : FcAbout,
-    title : 'Home',
-    name : 'about-us'
-  },
-  {
-    icon : TbPhoneCall,
-    title : 'Contact Us',
-    name : 'contact-us'
+    title : '3. ReactJS — Architecture',
+    name : 'architecture',
   },
 ];
   return (

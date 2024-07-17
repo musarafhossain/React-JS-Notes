@@ -17,3 +17,9 @@
 .zoom-scale-box{
   transform: scale(1);
 }
+
+.hr-tag{
+  height: 0.5px;
+  border: none;
+  background-color: #AAB7B8;
+}
