@@ -5,14 +5,15 @@
 ### **🔹 Beginner Level (Fundamentals)**  
 1️⃣ [**Introduction to React** (What is React, JSX, Components, First Project)](https://musarafhossain.github.io/React-JS-Notes/1_Introduction%20to%20React)  
 2️⃣ [**Components & Props** (Functional vs Class Components, Props, Reusability)](https://musarafhossain.github.io/React-JS-Notes/2_Components%20%26%20Props)  
-️⃣ [**State & Lifecycle** (useState, useEffect, Class Component Lifecycle)](https://musarafhossain.github.io/React-JS-Notes/_State%20%26%20Lifecycle%20in%20React)  
-4️⃣ [**Handling Events & Forms** (Event Handling, Forms, Controlled & Uncontrolled Inputs)](https://musarafhossain.github.io/React-JS-Notes/4_Handling%20Events%20%26%20Forms%20in%20React)  
-5️⃣ [**Conditional Rendering & Lists** (Rendering Logic, Lists & Keys, Mapping Data)](https://musarafhossain.github.io/React-JS-Notes/5_Conditional%20Rendering%20%26%20Lists%20in%20React)  
+3️⃣ [**Components & Props** (Functional vs Class Components, Props, Reusability)](https://musarafhossain.github.io/React-JS-Notes/3_Components%20%26%20Props)  
+️4️⃣ [**State & Lifecycle** (useState, useEffect, Class Component Lifecycle)](https://musarafhossain.github.io/React-JS-Notes/4_State%20%26%20Lifecycle%20in%20React)  
+5️⃣ [**Handling Events & Forms** (Event Handling, Forms, Controlled & Uncontrolled Inputs)](https://musarafhossain.github.io/React-JS-Notes/5_Handling%20Events%20%26%20Forms%20in%20React)  
+7️⃣ [**Conditional Rendering & Lists** (Rendering Logic, Lists & Keys, Mapping Data)](https://musarafhossain.github.io/React-JS-Notes/6_Conditional%20Rendering%20%26%20Lists%20in%20React)  
 
 ---
 
 ### **🔹 Intermediate Level (Advanced Concepts & Hooks)**  
-6️⃣ [**React Hooks (Part 1)** (useState, useEffect, useRef)](https://musarafhossain.github.io/React-JS-Notes/6_React%20Hooks%20(Part%201))  
+7️⃣ [**React Hooks (Part 1)** (useState, useEffect, useRef)](https://musarafhossain.github.io/React-JS-Notes/7_React%20Hooks%20(Part%201))  
 7️⃣ [**React Hooks (Part 2)** (useContext, useReducer, Custom Hooks)](https://musarafhossain.github.io/React-JS-Notes/7_React%20Hooks%20(Part%202))  
 8️⃣ [**React Router & Navigation** (Routing, Dynamic Routes, Nested Routes)](https://musarafhossain.github.io/React-JS-Notes/8_React%20Router%20%26%20Navigation)  
 9️⃣ [**State Management** (Context API, Redux Toolkit, Zustand)](https://musarafhossain.github.io/React-JS-Notes/9_State%20Management%20(Context%20API%2C%20Redux%20Toolkit%2C%20Zustand))  
