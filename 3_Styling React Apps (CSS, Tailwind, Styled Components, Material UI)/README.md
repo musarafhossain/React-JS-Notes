@@ -223,6 +223,7 @@ export default GridExample;
 ---
 
 ## **3.7 Choosing the Best Styling Approach**  
+
 | Use Case | Recommended Approach |
 |----------|----------------------|
 | Simple personal projects | CSS Modules |
