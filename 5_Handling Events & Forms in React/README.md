@@ -1,6 +1,6 @@
-# **Chapter 4: Handling Events & Forms in React**  
+# **Chapter 5: Handling Events & Forms in React**  
 
-## **4.1 Handling Events in React**  
+## **5.1 Handling Events in React**  
 React uses **synthetic events**, which are wrappers around native browser events for consistency across all browsers. Event handling in React is similar to JavaScript, but with some differences:  
 
 🔹 Event handlers are written in **camelCase** (`onClick` instead of `onclick`).  
@@ -9,7 +9,7 @@ React uses **synthetic events**, which are wrappers around native browser events
 
 ---
 
-### **4.1.1 Handling Click Events**  
+### **5.1.1 Handling Click Events**  
 #### **Functional Component Example**  
 ```jsx
 function ClickButton() {
@@ -44,7 +44,7 @@ export default ClickButton;
 
 ---
 
-### **4.1.2 Handling Events with Parameters**  
+### **5.1.2 Handling Events with Parameters**  
 #### **Passing Parameters in Functional Components**  
 ```jsx
 function ClickButton() {
@@ -78,10 +78,10 @@ export default ClickButton;
 
 ---
 
-## **4.2 Handling Forms in React**  
+## **5.2 Handling Forms in React**  
 Forms in React work differently because form elements like `<input>` maintain their own state. React uses **controlled components** to manage form inputs through state.  
 
-### **4.2.1 Controlled Components (Recommended Approach)**  
+### **5.2.1 Controlled Components (Recommended Approach)**  
 A **controlled component** has its form elements controlled by React state.  
 
 #### **Example: Controlled Input Field**
@@ -115,7 +115,7 @@ export default ControlledForm;
 
 ---
 
-### **4.2.2 Uncontrolled Components (Direct DOM Access)**  
+### **5.2.2 Uncontrolled Components (Direct DOM Access)**  
 An **uncontrolled component** does not store form data in React state but directly accesses it using `useRef` or `ref`.  
 
 #### **Example: Uncontrolled Input with useRef**  
@@ -145,7 +145,7 @@ export default UncontrolledForm;
 
 ---
 
-### **4.2.3 Handling Multiple Inputs in Forms**  
+### **5.2.3 Handling Multiple Inputs in Forms**  
 If a form has multiple fields, we can use a **single state object** to manage all values.  
 
 #### **Example: Form with Multiple Inputs**  
@@ -180,7 +180,7 @@ export default MultiInputForm;
 
 ---
 
-### **4.2.4 Handling Checkboxes, Radio Buttons, and Select Dropdowns**  
+### **5.2.4 Handling Checkboxes, Radio Buttons, and Select Dropdowns**  
 #### **Example: Handling Checkboxes**  
 ```jsx
 import React, { useState } from "react";
@@ -251,7 +251,7 @@ export default SelectExample;
 
 ---
 
-## **4.3 First Project: Login Form**  
+## **5.3 First Project: Login Form**  
 🎯 **Goal:** Build a controlled form that captures **email & password** and displays an alert on submission.  
 
 ### **Step 1: Create `LoginForm.js`**  

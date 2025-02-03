@@ -1,6 +1,6 @@
-# **Chapter 3: State & Lifecycle in React**  
+# **Chapter 4: State & Lifecycle in React**  
 
-## **3.1 What is State in React?**  
+## **4.1 What is State in React?**  
 State is a **built-in object** in React that allows components to store and manage dynamic data. Unlike **props**, which are **read-only**, state is **mutable** and allows components to re-render when the state changes.  
 
 📌 **Key Differences Between Props and State:**  
@@ -13,7 +13,7 @@ State is a **built-in object** in React that allows components to store and mana
 
 ---
 
-## **3.2 Managing State in Functional Components (useState Hook)**  
+## **4.2 Managing State in Functional Components (useState Hook)**  
 Functional components use the **useState Hook** to manage state.  
 
 ### **Basic Example: Counter App**  
@@ -38,7 +38,7 @@ export default Counter;
 
 ---
 
-## **3.3 Managing State in Class Components**  
+## **4.3 Managing State in Class Components**  
 Class components use the `this.state` object and `this.setState()` method.  
 
 ### **Class Component Example (Counter App)**  
@@ -72,7 +72,7 @@ export default Counter;
 
 ---
 
-## **3.4 The useEffect Hook (Handling Side Effects in Functional Components)**  
+## **4.4 The useEffect Hook (Handling Side Effects in Functional Components)**  
 The `useEffect` Hook allows us to perform **side effects** in functional components, such as:  
 ✅ Fetching data from an API  
 ✅ Updating the DOM  
@@ -104,7 +104,7 @@ export default TitleUpdater;
 
 ---
 
-## **3.5 Class Component Lifecycle Methods**  
+## **4.5 Class Component Lifecycle Methods**  
 In class components, we use lifecycle methods instead of `useEffect`.  
 
 ### **Important Lifecycle Methods**  
@@ -154,7 +154,7 @@ export default TitleUpdater;
 
 ---
 
-## **3.6 Cleanup Function in useEffect**  
+## **4.6 Cleanup Function in useEffect**  
 Some side effects (like event listeners) need **cleanup** to prevent memory leaks.  
 
 ### **Example: Event Listener Cleanup**  
@@ -189,7 +189,7 @@ export default MouseTracker;
 
 ---
 
-## **3.7 First Project: Timer App with Start & Stop**  
+## **4.7 First Project: Timer App with Start & Stop**  
 🎯 **Goal:** Create a Timer component that starts counting when mounted and stops when unmounted.  
 
 ### **Step 1: Create `Timer.js`**  

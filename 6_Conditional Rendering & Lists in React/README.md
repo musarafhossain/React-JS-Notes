@@ -1,4 +1,4 @@
-# **Chapter 5: Conditional Rendering & Lists in React**  
+# **Chapter 6: Conditional Rendering & Lists in React**  
 
 In this chapter, we’ll cover:  
 ✅ **Conditional Rendering** – Rendering UI based on conditions.  
@@ -7,13 +7,13 @@ In this chapter, we’ll cover:
 
 ---
 
-## **5.1 Conditional Rendering in React**  
+## **6.1 Conditional Rendering in React**  
 Conditional rendering means displaying different UI elements based on conditions like:  
 🔹 User authentication (show login/logout button).  
 🔹 Showing or hiding components dynamically.  
 🔹 Displaying messages based on conditions.  
 
-### **5.1.1 Using if-else (Class Component Example)**  
+### **6.1.1 Using if-else (Class Component Example)**  
 ```jsx
 import React, { Component } from "react";
 
@@ -38,7 +38,7 @@ export default Greeting;
 
 ---
 
-### **5.1.2 Using Ternary Operator (Functional Component Example)**  
+### **6.1.2 Using Ternary Operator (Functional Component Example)**  
 ```jsx
 import React, { useState } from "react";
 
@@ -62,7 +62,7 @@ export default Greeting;
 
 ---
 
-### **5.1.3 Using Logical AND (`&&`) for Simple Conditions**  
+### **6.1.3 Using Logical AND (`&&`) for Simple Conditions**  
 When rendering something **only if a condition is true**, use `&&`.  
 
 #### **Example: Show a Logout Button Only if Logged In**
@@ -75,10 +75,10 @@ function LogoutButton({ isLoggedIn }) {
 
 ---
 
-## **5.2 Rendering Lists in React**  
+## **6.2 Rendering Lists in React**  
 Lists in React are created using the `.map()` method, which transforms an array into JSX elements.  
 
-### **5.2.1 Simple List Rendering Example**  
+### **6.2.1 Simple List Rendering Example**  
 ```jsx
 function FruitsList() {
   const fruits = ["Apple", "Banana", "Cherry"];
@@ -99,7 +99,7 @@ export default FruitsList;
 
 ---
 
-### **5.2.2 Rendering a List of Objects**  
+### **6.2.2 Rendering a List of Objects**  
 ```jsx
 function UserList() {
   const users = [
@@ -123,7 +123,7 @@ export default UserList;
 
 ---
 
-### **5.2.3 Dynamic List with Filtering**  
+### **6.2.3 Dynamic List with Filtering**  
 We can filter lists dynamically before rendering them.  
 
 #### **Example: Show Only Users Older Than 18**
@@ -152,10 +152,10 @@ export default UserList;
 
 ---
 
-## **5.3 Handling Dynamic Lists with State**  
+## **6.3 Handling Dynamic Lists with State**  
 Lists often come from API calls or user inputs. We can manage them using **state**.  
 
-### **5.3.1 Adding Items to a List**  
+### **6.3.1 Adding Items to a List**  
 ```jsx
 import React, { useState } from "react";
 
@@ -190,7 +190,7 @@ export default TodoList;
 
 ---
 
-### **5.3.2 Removing Items from a List**  
+### **6.3.2 Removing Items from a List**  
 ```jsx
 import React, { useState } from "react";
 
@@ -220,7 +220,7 @@ export default TodoList;
 
 ---
 
-## **5.4 First Project: Dynamic To-Do List**  
+## **6.4 First Project: Dynamic To-Do List**  
 🎯 **Goal:** Create a to-do list with add & remove functionality.  
 
 ### **Step 1: Create `TodoApp.js`**

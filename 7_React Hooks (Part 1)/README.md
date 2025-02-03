@@ -1,4 +1,4 @@
-# **Chapter 6: React Hooks (Part 1)**  
+# **Chapter 7: React Hooks (Part 1)**  
 React Hooks allow functional components to use state and lifecycle features previously only available in class components.  
 
 ### **📌 Hooks Covered in This Chapter:**  
@@ -8,10 +8,10 @@ React Hooks allow functional components to use state and lifecycle features prev
 
 ---
 
-# **6.1 useState – Managing State in Functional Components**  
+# **7.1 useState – Managing State in Functional Components**  
 The `useState` Hook enables state management inside functional components.  
 
-### **6.1.1 Basic Example**  
+### **7.1.1 Basic Example**  
 ```jsx
 import React, { useState } from "react";
 
@@ -33,7 +33,7 @@ export default Counter;
 
 ---
 
-### **6.1.2 Updating State Based on Previous State**  
+### **7.1.2 Updating State Based on Previous State**  
 ```jsx
 function Counter() {
   const [count, setCount] = useState(0);
@@ -54,7 +54,7 @@ function Counter() {
 
 ---
 
-### **6.1.3 Using useState with Objects**  
+### **7.1.3 Using useState with Objects**  
 ```jsx
 function Profile() {
   const [user, setUser] = useState({ name: "Alice", age: 25 });
@@ -74,10 +74,10 @@ function Profile() {
 
 ---
 
-# **6.2 useEffect – Handling Side Effects**  
+# **7.2 useEffect – Handling Side Effects**  
 The `useEffect` Hook lets you **run side effects** (e.g., API calls, subscriptions) inside functional components.  
 
-### **6.2.1 Basic useEffect Example**  
+### **7.2.1 Basic useEffect Example**  
 ```jsx
 import React, { useState, useEffect } from "react";
 
@@ -101,7 +101,7 @@ function Counter() {
 
 ---
 
-### **6.2.2 Running useEffect Only Once (on Mounting)**
+### **7.2.2 Running useEffect Only Once (on Mounting)**
 ```jsx
 useEffect(() => {
   console.log("Component Mounted");
@@ -111,7 +111,7 @@ useEffect(() => {
 
 ---
 
-### **6.2.3 Running useEffect When a Specific State Changes**  
+### **7.2.3 Running useEffect When a Specific State Changes**  
 ```jsx
 useEffect(() => {
   console.log(`Count updated: ${count}`);
@@ -121,7 +121,7 @@ useEffect(() => {
 
 ---
 
-### **6.2.4 Cleanup Function in useEffect**  
+### **7.2.4 Cleanup Function in useEffect**  
 When using effects like **event listeners or subscriptions**, we need cleanup.  
 
 #### **Example: Adding & Removing Event Listeners**  
@@ -142,14 +142,14 @@ useEffect(() => {
 
 ---
 
-# **6.3 useRef – Managing References & Persisting Values**  
+# **7.3 useRef – Managing References & Persisting Values**  
 The `useRef` Hook is used for:  
 🔹 Accessing and **modifying DOM elements**.  
 🔹 **Persisting values across renders** without causing re-renders.  
 
 ---
 
-### **6.3.1 Accessing DOM Elements with useRef**  
+### **7.3.1 Accessing DOM Elements with useRef**  
 ```jsx
 import React, { useRef } from "react";
 
@@ -174,7 +174,7 @@ export default InputFocus;
 
 ---
 
-### **6.3.2 Persisting Values Without Re-renders**  
+### **7.3.2 Persisting Values Without Re-renders**  
 `useRef` can store values **without triggering re-renders**.  
 
 ```jsx
@@ -197,7 +197,7 @@ function Counter() {
 
 ---
 
-# **6.4 First Project: Stopwatch Using useRef & useState**  
+# **7.4 First Project: Stopwatch Using useRef & useState**  
 🎯 **Goal:** Build a stopwatch with **start, stop, and reset** functionality.  
 
 ### **Step 1: Create `Stopwatch.js`**  
