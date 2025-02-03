@@ -1,5 +1,7 @@
 ## 📖 **Complete React Roadmap: Chapters Overview**  
 
+[Notes](https://musarafhossain.github.io/React-JS-Notes/)
+
 ### **🔹 Beginner Level (Fundamentals)**  
 1️⃣ [**Introduction to React** (What is React, JSX, Components, First Project)](https://musarafhossain.github.io/React-JS-Notes/1_Introduction%20to%20React)  
 2️⃣ [**Components & Props** (Functional vs Class Components, Props, Reusability)](https://musarafhossain.github.io/React-JS-Notes/2_Components%20%26%20Props)  
