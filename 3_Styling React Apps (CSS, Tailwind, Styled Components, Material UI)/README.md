@@ -57,29 +57,26 @@ import "./styles.css";
 
 ### **3.3.1 Install Tailwind CSS**  
 ```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install tailwindcss @tailwindcss/vite
 ```
 
 ### **3.3.2 Configure Tailwind**  
-Modify `tailwind.config.js`:  
+Modify `vite.config.js`:  
 
 ```javascript
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
 ```
 
 Add Tailwind to `index.css`:  
 
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
 
 ### **3.3.3 Using Tailwind in Components**  
