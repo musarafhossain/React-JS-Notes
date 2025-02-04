@@ -4,9 +4,9 @@
 
 ### **🔹 Beginner Level (Fundamentals)**  
 1️⃣ [**Introduction to React** (What is React, JSX, Components, First Project)](https://musarafhossain.github.io/React-JS-Notes/1_Introduction%20to%20React)  
-2️⃣ [**Components & Props** (Functional vs Class Components, Props, Reusability)](https://musarafhossain.github.io/React-JS-Notes/2_Components%20%26%20Props)  
+2️⃣ [**Components and Props** (Functional vs Class Components, Props, Reusability)](https://musarafhossain.github.io/React-JS-Notes/2_Components%20and%20Props)  
 3️⃣ [**Styling React Apps** (CSS, Tailwind, Styled Components, Material UI, Bootstrap)](https://musarafhossain.github.io/React-JS-Notes/3_Styling%20React%20Apps%20(CSS%2C%20Tailwind%2C%20Styled%20Components%2C%20Material%20UI))  
-️4️⃣ [**State & Lifecycle** (useState, useEffect, Class Component Lifecycle)](https://musarafhossain.github.io/React-JS-Notes/4_State%20%26%20Lifecycle%20in%20React)  
+️4️⃣ [**State and Lifecycle** (useState, useEffect, Class Component Lifecycle)](https://musarafhossain.github.io/React-JS-Notes/4_State%20and%20Lifecycle%20in%20React)  
 5️⃣ [**Handling Events & Forms** (Event Handling, Forms, Controlled & Uncontrolled Inputs)](https://musarafhossain.github.io/React-JS-Notes/5_Handling%20Events%20%26%20Forms%20in%20React)  
 7️⃣ [**Conditional Rendering & Lists** (Rendering Logic, Lists & Keys, Mapping Data)](https://musarafhossain.github.io/React-JS-Notes/6_Conditional%20Rendering%20%26%20Lists%20in%20React)  
 

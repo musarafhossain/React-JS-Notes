@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react"
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Count :- {count}</h1>
-      <button type="button" onClick={setCount(count+1)}>Increament</button>
+      <h1>Count : {count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increament</button>
+      <button onClick={() => setCount(count - 1)}>Decreament</button>
     </>
   )
 }
