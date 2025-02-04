@@ -1,12 +1,22 @@
+import FunctionCounter from "./FunctionCounter"
+import ClassCounter from "./ClassCounter"
+import MouseTracker from "./MouseTracker"
+import Timer from "./Timer"
 import { useState } from "react"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [showTimer, setShowTimer] = useState(false);
   return (
     <>
-      <h1>Count : {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increament</button>
-      <button onClick={() => setCount(count - 1)}>Decreament</button>
+      <FunctionCounter />
+      <ClassCounter />
+      <MouseTracker />
+      <div>
+        <button onClick={() => setShowTimer(!showTimer)}>
+          {showTimer ? "Stop Timer" : "Start Timer"}
+        </button>
+        {showTimer && <Timer />}
+      </div>
     </>
   )
 }
