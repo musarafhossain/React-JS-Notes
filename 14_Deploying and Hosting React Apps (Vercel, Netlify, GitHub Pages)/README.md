@@ -162,6 +162,7 @@ GitHub Pages is a free way to host static websites directly from a GitHub reposi
 ---
 
 ## **14.5 Choosing the Best Deployment Platform**
+
 | Feature          | Vercel | Netlify | GitHub Pages |
 |-----------------|--------|---------|-------------|
 | **Ease of Use** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
