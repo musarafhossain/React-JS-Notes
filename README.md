@@ -79,3 +79,15 @@
 7.5 JSX with HTML Tag Properties
 
 ---
+
+# ✅ Chapter 8: Click Event and Function Call
+
+8.1 Difference Between JS Function Call and React Function Call
+8.2 Make Function
+8.3 Make Button and Click Event
+8.4 Call Function on Click Event
+8.5 Call Arrow Function
+8.6 Pass Params with Function Call
+8.7 Interview Question
+
+---
