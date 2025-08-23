@@ -62,3 +62,20 @@
 6.4 Import Component
 
 ---
+
+# ✅ Chapter 7 Index
+
+7.1 What is JSX
+7.2 Example of JSX
+7.3 React Without JSX
+7.4 JSX with Curly Braces `{}`
+- a) Variable
+- b) Condition
+- c) Function
+- d) Operation
+- e) Object
+- f) Array
+
+7.5 JSX with HTML Tag Properties
+
+---
