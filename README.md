@@ -25,3 +25,12 @@
 3.5 Make First New File in React.js
 
 ---
+
+# ✅ Chapter 4: File and Folder Structure of React App
+
+4.1 Most Important Files (package.json, package-lock.json)
+4.2 Config Files (vite.config.js, eslint.config.js)
+4.3 Folder Structure Explanation
+4.4 Where to Write Code
+
+---
