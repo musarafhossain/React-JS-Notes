@@ -53,3 +53,12 @@
 5.6 Difference Between a Component and a Function  
 
 ---
+
+# ✅ Chapter 6: Importing and Exporting Components
+
+6.1 Why Need to Import and Export Component
+6.2 Make New File for Component
+6.3 Export Component (Default, Named, Multiple)
+6.4 Import Component
+
+---
