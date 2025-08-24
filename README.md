@@ -104,3 +104,13 @@
 9.8 Interview Question
 
 ---
+
+# ✅ Chapter 10: Conditional Rendering
+
+10.1 What is Conditional Rendering
+10.2 Why Conditional Rendering is Needed
+10.3 Methods of Conditional Rendering
+10.4 Example: Login/Logout Button
+10.5 Interview Questions
+
+---
