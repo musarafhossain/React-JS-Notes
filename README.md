@@ -91,3 +91,16 @@
 8.7 Interview Question
 
 ---
+
+# ✅ Chapter 9: State in React JS
+
+9.1 Why State Required
+9.2 What is State
+9.3 What are Hooks
+9.4 How to Use State
+9.5 Example of State (Counter App)
+9.6 State in Different Components
+9.7 Multiple States
+9.8 Interview Question
+
+---
