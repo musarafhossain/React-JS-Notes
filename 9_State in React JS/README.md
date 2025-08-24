@@ -119,7 +119,7 @@ export default Counter;
 
 ---
 
-### 8.7 Multiple States
+### 9.7 Multiple States
 
 You can use **more than one state** inside a component.
 
@@ -148,7 +148,7 @@ export default UserProfile;
 
 ---
 
-### 8.8 Interview Question
+### 9.8 Interview Question
 
 **Q1: Difference between State and Props?**
 
