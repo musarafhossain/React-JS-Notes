@@ -154,3 +154,19 @@
 13.7 Interview Questions
 
 ---
+
+# ✅ Chapter 14 Index
+
+14.1 What is `useEffect`
+14.2 Example List
+14.3 Syntax
+14.4 With State
+14.5 With Props
+14.6 Remove Side Effects (inside & outside)
+14.7 Fetch Data
+14.8 Lifecycle Methods
+14.9 DOM Manipulation
+14.10 Handle Props Side Effect
+14.11 Interview Questions
+
+---
