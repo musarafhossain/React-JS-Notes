@@ -114,3 +114,17 @@
 10.5 Interview Questions
 
 ---
+
+# ✅ Chapter 11: Props in React JS
+
+11.1 What are Props?
+11.2 Why Use Props?
+11.3 Basic Props Example
+11.4 Passing Different Types of Data (var, object, array)
+11.5 Props with Event (Pass Data on Click)
+11.6 Default Props
+11.7 Passing JSX with Props
+11.8 Change Style with Props
+11.9 Interview Questions
+
+---
