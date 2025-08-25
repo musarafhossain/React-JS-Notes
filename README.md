@@ -155,7 +155,7 @@
 
 ---
 
-# ✅ Chapter 14 Index
+# ✅ Chapter 14: `useEffect` Hook
 
 14.1 What is `useEffect`
 14.2 Example List
