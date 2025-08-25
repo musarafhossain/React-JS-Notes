@@ -128,3 +128,17 @@
 11.9 Interview Questions
 
 ---
+
+# ✅ Chapter 12: Controlled Components
+
+12.1 What is Controlled Component?
+12.2 Identify Controlled Component
+12.3 Controlled Input Field
+12.4 Controlled Form (Multiple Fields)
+12.5 Benefits of Controlled Components
+12.6 Handle Checkbox
+12.7 Handle Radio Button
+12.8 Handle Dropdown
+12.9 Full Form Handling Example
+
+---
