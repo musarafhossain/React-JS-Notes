@@ -142,3 +142,15 @@
 12.9 Full Form Handling Example
 
 ---
+
+# ✅ Chapter 13: Hooks in React.js
+
+13.1 What are Hooks
+13.2 Why We Need Hooks
+13.3 History of Hooks
+13.4 How to Identify Hooks
+13.5 Popular React Hooks (list)
+13.6 Example (useState)
+13.7 Interview Questions
+
+---
