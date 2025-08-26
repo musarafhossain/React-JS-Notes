@@ -1,24 +1,10 @@
-import { useState } from "react";
+import React from 'react'
+import Counter from './components/Counter'
 
-function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
+const App = () => {
   return (
-    <div>
-      <h1>Conditional Rendering Example</h1>
-      {isLoggedIn ? (
-        <div>
-          <h2>Welcome Back!</h2>
-          <button onClick={() => setIsLoggedIn(false)}>Logout</button>
-        </div>
-      ) : (
-        <div>
-          <h2>Please Login</h2>
-          <button onClick={() => setIsLoggedIn(true)}>Login</button>
-        </div>
-      )}
-    </div>
-  );
+    <Counter />
+  )
 }
 
-export default App;
+export default App

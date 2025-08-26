@@ -170,3 +170,20 @@
 14.11 Interview Questions
 
 ---
+
+# ✅ Chapter 15: Styling React Using CSS
+
+15.1 How Many Types of Styling in React
+15.2 Inline Style
+ • Difference from HTML inline style
+ • Example: User Profile Card
+ • Multiple Cards with Dynamic & Conditional Styling
+15.3 External CSS
+15.4 CSS Modules
+15.5 Styled Components
+15.6 External Libraries/Frameworks
+ • Bootstrap
+ • TailwindCSS
+15.7 Interview Questions
+
+---
