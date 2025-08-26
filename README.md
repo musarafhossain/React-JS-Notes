@@ -187,3 +187,53 @@
 15.7 Interview Questions
 
 ---
+
+# ✅ Chapter 16: `useRef` Hook
+
+16.1 What is useRef
+16.2 Syntax and Usage
+16.3 Control Input Field
+16.4 Hide/Show Input Field
+16.5 Other Uses
+16.6 Interview Questions
+
+---
+
+# ✅ Chapter 17: Uncontrolled Component
+
+17.1 What is Uncontrolled Component
+17.2 Uncontrolled with Query Selector
+17.3 Uncontrolled with useRef
+17.4 Interview Questions
+
+---
+
+# ✅ Chapter 18: ForwardRef in React
+
+18.1 What is ForwardRef
+18.2 Implementation Before React 19
+18.3 Implementation in React 19
+18.4 Interview Questions
+
+---
+
+# ✅ Chapter 19: `useFormStatus` Hook in React.js
+
+19.1 What is useFormStatus
+19.2 Example Code
+19.3 Steps in Example
+19.4 Interview Questions
+
+---
+
+
+# ✅ Chapter 20: `useTransition` Hook in React.js
+
+20.1 What is useTransition
+20.2 Why useTransition
+20.3 Syntax
+20.4 Example: Button + Loader
+20.5 Example: Smooth Search
+20.6 Interview Questions
+
+---
