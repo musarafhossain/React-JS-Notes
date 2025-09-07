@@ -277,3 +277,13 @@
 24.5 Interview Questions
 
 ---
+
+# ✅ Chapter 25: Updating Arrays in State
+
+25.1 Make Array in State
+25.2 Display Array Data on UI
+25.3 Update Array Data
+25.4 Update Object of Array
+25.5 Interview Questions
+
+---
