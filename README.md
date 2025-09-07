@@ -314,3 +314,15 @@
 28.4 Interview Questions
 
 ---
+
+# ✅ Chapter 29: Rules for Hooks
+
+29.1 What are Hooks?
+29.2 Rules for Hooks
+29.3 Example: Correct vs Wrong Usage
+29.4 Custom Hooks
+  • What are Custom Hooks
+  • Example: Toggle UI with Custom Hook
+29.5 Interview Questions
+
+---
