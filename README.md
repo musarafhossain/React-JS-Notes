@@ -326,3 +326,17 @@
 29.5 Interview Questions
 
 ---
+
+
+# ✅ Chapter 30: Context API
+
+30.1 What is Context API
+30.2 How Context API Works (Parts)
+  • createContext
+  • Provider
+  • useContext
+30.3 Example with Different Files
+30.4 Update Data with Context API
+30.5 Interview Questions
+
+---
