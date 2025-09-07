@@ -267,3 +267,13 @@
 23.5 Interview Questions
 
 ---
+
+# ✅ Chapter 24: Updating Objects in State
+
+24.1 Make Object in State
+24.2 Display Object Values
+24.3 Update Object Key
+24.4 Update Nested Object Key
+24.5 Interview Questions
+
+---
