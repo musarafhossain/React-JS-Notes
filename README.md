@@ -257,3 +257,13 @@
 22.5 Interview Questions
 
 ---
+
+# ✅ Chapter 23: Lifting State Up in React.js
+
+23.1 What is Lifting State Up?
+23.2 Why Lifting State Up is Needed?
+23.3 Example: Two Components Sharing State
+23.4 How It Works
+23.5 Interview Questions
+
+---
