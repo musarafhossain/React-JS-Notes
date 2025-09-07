@@ -237,3 +237,13 @@
 20.6 Interview Questions
 
 ---
+
+# ✅ Chapter 21: Keep Your Components Pure
+
+21.1 Pure Function in JavaScript
+21.2 Pure Component in React
+21.3 Example of Impure Component
+21.4 Example of Pure Component
+21.5 Interview Questions
+
+---
