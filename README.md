@@ -247,3 +247,13 @@
 21.5 Interview Questions
 
 ---
+
+# ✅ Chapter 22: Derived State in React.js
+
+22.1 What is Derived State?
+22.2 Why Not Store Derived State in useState?
+22.3 Example: Derived State
+22.4 How Derived State Improves Performance
+22.5 Interview Questions
+
+---
